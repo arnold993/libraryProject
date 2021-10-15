@@ -2,12 +2,13 @@ package com.softwareinstitute.training.arnold.quarcoo;
 
 public abstract class libraryContent {
 
-        //Members of attributes
+        //ATTRIBUTES
         private String genre;
         private String author;
         private String title;
         private String ISP;
-        // Constructor
+
+        // CONSTRUCTOR
 
         public libraryContent (String genre, String author, String title, String ISP){
             this.genre = genre;
@@ -16,7 +17,7 @@ public abstract class libraryContent {
             this.ISP = ISP;
         }
 
-        // Methods
+        // METHODS
         public void setGenre(String genre){
             this.genre = genre;
         }

@@ -9,8 +9,8 @@ public class Books extends libraryContent {
         this.pageNum= pageNum;
     }
 
-    public void printNumPages() {
-        System.out.println("The name of the books is " + getTitle() + " " + pageNum);
+    public int printNumPages() {
+        return  pageNum;
     }
 
 }
